@@ -1,0 +1,22 @@
+#inputBox{
+  position: relative;
+}
+
+#inputBox input{
+  background-color:#1a1a1a;
+  color: #f9f9f9;
+  width:80%;
+  height: 45px;
+  border-radius: 5px;
+  border-width: 0px;
+}
+
+
+
+#inputBox .addTask{
+  position: absolute;
+  top: 15px;
+  height: 100%;
+  right: 230px;
+}
+

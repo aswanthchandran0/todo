@@ -1,0 +1,35 @@
+#TaskBox{
+    position: relative;
+}
+
+.show{
+    background-color:#1a1a1a;
+  color: #f9f9f9;
+  width:80%;
+  height: 45px;
+  border-radius: 5px;
+  margin: 10px;
+  border-width: 0px;
+  
+  
+}
+
+#TaskBox .deleteTask{
+    position: absolute;
+    top: 25px;
+  height: 100%;
+  right: 230px;
+}
+
+.selection{
+  position: absolute;
+  top: 24px;
+  right: 260px;
+  transform: scale(1.5);
+}
+.edit{
+  position: absolute;
+  top: 25px;
+  left: 72%;
+  right: 0px;
+}
